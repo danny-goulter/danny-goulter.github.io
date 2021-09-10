@@ -18,6 +18,7 @@ img {max-width: 400px;
             max-width: 70%; 
             font-size:xx-large;
         border-radius: 12px;
+        overflow: auto;
         }
 
 .image {padding-left: 50px;}
