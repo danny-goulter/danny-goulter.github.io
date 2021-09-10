@@ -1,0 +1,50 @@
+body {font-family: 'Quicksand', sans-serif;}
+
+.header {font-family: 'Quicksand', sans-serif; font-size:xx-large;}
+
+html {background-color: rgb(175, 193, 228);}
+
+h2 {margin-top: -25px;}
+
+h2 {color:seashell;}
+
+img {max-width: 400px; 
+    max-height: 400px;
+    float: right;
+    border-radius: 12px;
+}
+
+.content {background-color: rgb(167, 172, 177); 
+            max-width: 70%; 
+            font-size:xx-large;
+        border-radius: 12px;
+        }
+
+.image {padding-left: 50px;}
+
+.links {float: right;}
+
+.tech {background-color: darkblue;
+         color: white; 
+         font-family: 'Quicksand', sans-serif;
+        border-radius: 12px; 
+        font-size: xx-large;
+        margin-right: 50px;
+        margin-bottom: 25px;
+}
+
+.core {background-color: darkblue;
+    color: white; 
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 12px; 
+    font-size: xx-large;
+}
+
+button {display: block;}
+
+a {text-decoration: none;
+    color: white;
+}
+
+a:visited {color:white;
+}
