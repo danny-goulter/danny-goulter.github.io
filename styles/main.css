@@ -8,10 +8,17 @@ h2 {margin-top: -25px;}
 
 h2 {color:seashell;}
 
-img {max-width: 400px; 
+.credits {font-size:small}
+
+.pagepics {max-width: 400px; 
     max-height: 400px;
     float: right;
     border-radius: 12px;
+}
+.blogpics {display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 30% !important;
 }
 
 .content {background-color: rgb(167, 172, 177); 
@@ -20,6 +27,13 @@ img {max-width: 400px;
         border-radius: 12px;
         overflow: auto;
         }
+
+.pagescontent {background-color: rgb(167, 172, 177); 
+    max-width: 70%; 
+    font-size:large;
+border-radius: 12px;
+overflow: auto;
+} 
 
 .image {padding-left: 50px;}
 
@@ -41,7 +55,18 @@ img {max-width: 400px;
     font-size: xx-large;
 }
 
-button {display: block;}
+.home {background-color: darkblue;
+    color: white; 
+    font-family: 'Quicksand', sans-serif;
+   border-radius: 12px; 
+   font-size: xx-large;
+   margin-right: 50px;
+   margin-bottom: 25px;
+}
+
+button {display: block;
+    position: relative; left: -100px; top: -100px;
+}
 
 a {text-decoration: none;
     color: white;
