@@ -8,11 +8,13 @@ h2 {margin-top: -25px;}
 
 h2 {color:seashell;}
 
+.dateheader {margin-top: -25px;}
+
 .credits {font-size:small}
 
 .pagepics {max-width: 400px; 
     max-height: 400px;
-    float: right;
+    float:right;
     border-radius: 12px;
 }
 .blogpics {display: block !important;
@@ -37,7 +39,12 @@ overflow: auto;
 
 .image {padding-left: 50px;}
 
-.links {float: right;}
+.links {float: right;  position: relative; top: 150px; left: 230px;
+}
+
+.linkshome {float: right;  position: relative; top: 110px; left: -120px;}
+
+.linkscake {float: right;  position: relative; top: -950px; left: -120px;}
 
 .tech {background-color: darkblue;
          color: white; 
@@ -64,8 +71,8 @@ overflow: auto;
    margin-bottom: 25px;
 }
 
-button {display: block;
-    position: relative; left: -100px; top: -100px;
+button {display:block;
+   
 }
 
 a {text-decoration: none;
