@@ -42,9 +42,15 @@ overflow: auto;
 .links {float: right;  position: relative; top: 150px; left: 230px;
 }
 
-.linkshome {float: right;  position: relative; top: 110px; left: -120px;}
+.linkshome {float: right;  position: relative; top: -80px; left: -120px;}
 
 .linkscake {float: right;  position: relative; top: -950px; left: -120px;}
+
+.linkscore {float: right;  position: relative; top: 50px; left: 290px;}
+
+.linksvalues {float: right;  position: relative; top: -750px; left: -120px;}
+
+.linksplan {float: right;  position: relative; top: -800px; left: -120px;}
 
 .tech {background-color: darkblue;
          color: white; 
