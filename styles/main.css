@@ -46,9 +46,11 @@ overflow: auto;
 
 .linkscake {float: right;  position: relative; top: -950px; left: -120px;}
 
-.linkscore {float: right;  position: relative; top: 50px; left: 290px;}
+.linkscore {float: right;  position: relative; top: 50px; left: -100px;}
 
 .linksvalues {float: right;  position: relative; top: -750px; left: -120px;}
+
+.linksemotional {float: right;  position: relative; top: -430px; left: -120px;}
 
 .linksplan {float: right;  position: relative; top: -800px; left: -120px;}
 
