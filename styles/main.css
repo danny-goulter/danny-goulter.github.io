@@ -1,4 +1,7 @@
-body {font-family: 'Quicksand', sans-serif;}
+body {font-family: 'Quicksand', sans-serif;
+    margin-left:auto;
+    margin-right:auto;
+    width:90%}
 
 .header {font-family: 'Quicksand', sans-serif; font-size:xx-large;}
 
@@ -27,7 +30,8 @@ h2 {color:seashell;}
             max-width: 70%; 
             font-size:xx-large;
         border-radius: 12px;
-        overflow: auto;
+        overflow:inherit;
+        padding: 1em;
         }
 
 .pagescontent {background-color: rgb(167, 172, 177); 
@@ -42,7 +46,7 @@ overflow: auto;
 .links {float: right;  position: relative; top: 150px; left: 230px;
 }
 
-.linkshome {float: right;  position: relative; top: -80px; left: -120px;}
+.linkshome {float: right;  position: relative; top: -115px; left: -120px;}
 
 .linkscake {float: right;  position: relative; top: -950px; left: -120px;}
 
@@ -89,3 +93,20 @@ a {text-decoration: none;
 
 a:visited {color:white;
 }
+
+.socialmedia {
+background-color: rgb(167, 172, 177);    
+position: fixed;
+left: 40%;
+
+margin-left: 1em;
+margin-top: 4em;
+border-radius: 12px;
+padding: 5px;
+}
+
+.fbpic {margin-left: 1em;}
+
+.instapic {margin-left: 1em;}
+
+.twitterpic {margin-left: 1em;}
