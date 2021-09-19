@@ -1,4 +1,5 @@
 body {font-family: 'Quicksand', sans-serif;
+    display:block;
     margin-left:auto;
     margin-right:auto;
     width:90%}
@@ -34,7 +35,8 @@ h2 {color:seashell;}
         padding: 1em;
         }
 
-.pagescontent {background-color: rgb(167, 172, 177); 
+.pagescontent {background-color: rgb(167, 172, 177);
+    padding: 1em; 
     max-width: 70%; 
     font-size:large;
 border-radius: 12px;
@@ -43,8 +45,7 @@ overflow: auto;
 
 .image {padding-left: 50px;}
 
-.links {float: right;  position: relative; top: 150px; left: 230px;
-}
+.links {float: right;  position: relative; top: 150px; left: 230px;}
 
 .linkshome {float: right;  position: relative; top: -115px; left: -120px;}
 
