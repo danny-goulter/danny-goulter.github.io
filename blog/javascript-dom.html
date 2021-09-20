@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Danny Goulter - Learning Coding</title>
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <body>
+        <div class="header">
+          <h1><strong>Danny Goulter</strong></h1>
+          <h2>Learning to Code</h2>
+        </div>
+        <div class="image">
+            <img class="pagepics" src="../blog/images/code.jpeg" alt="html code on dark background">
+            </div>
+            <div class="pagescontent">
+                <h4>Javascript: Making the Web feel Alive - How it works with HTML and CSS and an overview of the The Dom.</h4>
+                <p><em>September 19, 2021</em></p>
+                <p>So before we start our exploration into what Javascript is and how it works let's first briefly bring in HTML and CSS again and go over their respective roles using another hopefully familiar example:</p>
+
+                <div class="row">
+                    <div class="column">
+                      <img src="../blog/images/emptylp.jpeg" alt="empty shelf" style="width:100%; border-radius: 12px;">
+                    </div>
+                    <div class="column">
+                      <img src="../blog/images/shelflp.jpeg" alt="shelf with records" style="width:100%; border-radius: 12px;">
+                    </div>
+                    <div class="column">
+                      <img src="../blog/images/turntable.jpeg" alt="turntable" style="width:100%; border-radius: 12px;">
+                    </div>
+                  </div>
+                 
+                  <p>Moving from left to right through the images above the first one we see is a trendy empty shelf that will one day be occupying a corner of your lounge or den. This is HTML, in this example an empty shelf that together with other elements form the basis of what makes a living space - or website - functional. <br> The next image along is that same shelf, now finally in your trendy New York loft, but now full of Records that you can occasionally pull out and put on 'side 1' of, y'know when you're not so busy all the time. The Records are also HTML, they are known as Div tags, and the CSS then adds details such as genre of music, cover art, gatefold packaging, or Picture Discs to our Records - in other words personality and style to our HTML to make it stand out.<br>So what's Javascript then? Well in our little triptych here, Javascript is represented in the right-most image and can be described with the objects that sit on the top two shelves of the unit: The Record Player and the amplifier and most importantly, and more relevantly, The DJ (not pictured). In your lounge I'm guessing the DJ is you but it could also be a DJ spinning records at a club or wedding.<br> These types of items make your website, or in this scenario your trendy lounge, come alive because they make interacting with your HTML and CSS possible, The DJ selects the record from the shelf, the record player then reads the grooves on a record and then before you know it you're listening to your records and hearing the music come out of your extremely expensive speakers.</p>
+                  <p>So the process of putting on a record from start to finish would be: 
+                      <ol>
+                          <li>Selecting a record from the shelf.</li>
+                          <li>Placing the record on the turntable.</li>
+                          <li>Lifting the needle arm up on your turntable which in turn makes your record start to spin, and then putting it down into the record's groove.</li>
+                          <li>Kicking back in your armchair or getting up and dancing depending on your mood or the style of music you play. Or if you're a DJ, putting your headphones back on one ear and jumping up and down.</li>
+                      </ol>
+                  </p>
+                  <img class="blogpics" src="images/vinyl.jpeg" alt="record playing" style="border-radius: 12px;">
+                  <p>In Javascript we talk about that list being a <strong>control flow</strong>, in other words a list of tasks that a computer program, in this case our DJ, reads and performs (executes) in order. Now a Record of course has two sides, so if we were to get our DJ to play the second side of a Record then the list of steps in the code required would be different because for a start we have already selected the Record from the shelf. So in the code we could input a <strong>Function</strong> called, let's say, flipRecord, and have the DJ/computer program
+                    <ol>
+                        <li>Lift and flip the record over and place it back on the turntable.</li>
+                        <li>Again lift the needle arm up on the turntable which in turn makes your record start to spin. Then put it down into the record's groove.</li>
+                        <li>Kick back or dance again</li>
+                    </ol>
+                </p>
+                <p>We could achieve this task using a particular type of <strong>Javascript Loop</strong> called a While Loop. So the record could be "playing" for as long as there was a groove to read and sound emanating from your speakers. Then when that groove ran out, signalling the end of side one, the Function flipRecord could be called which would repeat some of the steps described above to get the record "playing" again. So Functions are important because they aid us in creating loops and setting a Computer Program tasks that can be executed over and over again without the need to input repetitive code. So the DJ doesn't need to leave his booth or armchair and return to the shelf of records everytime he just wants to play Side 2.</p>
+
+                <div class="row">
+                    <div class="column">
+                      <img src="../blog/images/vinyl-a-m.jpg" alt="records" style="width:100%; border-radius: 12px;">
+                    </div>
+                    <div class="column">
+                      <img src="../blog/images/my-turntable.jpg" alt="turntable" style="width:100%; border-radius: 12px;">
+                    </div>
+                    <div class="column">
+                      <img src="../blog/images/vinyl-n-z.jpg" alt="more records" style="width:100%; border-radius: 12px;">
+                    </div>
+                  </div>
+
+                <p>When you start to build a record collection it can be important to start cataloguing them into some sort of database, espcially to avoid double-ups when you're away from your collection out buying records. In Javascript when can use Arrays and Objects for this purpose. For example, in my record collection I own 3 albums on vinyl by The Beastie Boys.    
+                </p>
+
+                <img src="images/bboyscode.png" alt="code example" style="width: 50%; height: 50%; border-radius: 12px;">
+
+                <p>In the above screenshot we can see that an Array is used to store multiples items in a single <strong>variable</strong>, a variable being just a storage location for readable code that can vary. Using Javascript I can then find out if I own Paul's Boutique by accessing the 1st item in the Array. You're probably thinking "Hang on, Paul's Boutique is the <em>2nd</em> item I can see." You're not wrong... but also you are, because in Javascript counting always starts at Zero, this is called Zero Indexing.</p>
+
+                <p>Objects on the other hand are used to drill-down on specific data on anything that can be defined as a "thing" in your code. In this case a particular album, and we're looking at Paul's Boutique once more. If god forbid I got the release year wrong or I bought a new  edition of this album with say a coloured vinyl or bonus tracks, I could go into my code and add or change properties within that album's Object.
+                </p>
+                <p>The last thing we need to talk about is the DOM, or Document Object Model. The DOM is like a map or a blueprint for a website's data and a Web Browser uses a family tree-like structure to interpret and represent that data. So the tree can be displayed in either elements and HTML tags as shown below, or in our New York Loft categories such as: Lounge / Shelves / Records / Cover Art Images / Tracklists etc. 
+
+                </p>
+
+                <img src="images/domtree.png" style="width: 40%;height: 40%; margin: 0px 10px 0px 0px; border-radius: 12px;" align="left"/><p> We can use Javascript code to manipulate and change the HTML and CSS of a Webpage using the DOM in DevTools and it is readily available in most common web browsers.</p><p>Let's say you visit someone else's lounge and you get some ideas that you would like to experiment with in your own space. Well if you had a real-world equivalent of the DOM you could do just that and more importantly do it safely without having to cause massive upheaval to the contents of your lounge.</p><p>In short, using Javascript with the DOM and Devtools is like using the computer program SketchUp when you're designing and building a house. I hope all this has made sense for you, after all that I need to go and make myself a cup of Java. </p>
+
+                <p>- Danny</p>
+
+                <br>
+                
+                <p class="credits">Sources used for research and graphics: Google, some of the pictures (not all) are actually my own record collection. You can probably guess which ones - hint: I don't have a trendy New York Loft. <br> 
+                    <a href="https://coloredvinylrecords.com/blog/vinyl-record-storage-and-shelving-solutions/">27 Vinyl Record Storage And Shelving Solutions</a> This store looks amazing, when I win Lotto they're going to hear from me.
+                                   
+                  </p>
+
+
+
+
+
+              </div>
+<div class="linksjava">
+                <button class="home"><a href="../index.html">Home</a></button>
+                <button class="tech"><a href="../blog/technical.html">Technical Posts</a></button>
+                <button class="core"><a href="core.html">Core Concepts</a></button>
+</div>
+
+
+
+</body>
