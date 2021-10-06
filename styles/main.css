@@ -27,21 +27,31 @@ h2 {color:seashell;}
     width: 30% !important;
 }
 
-.content {background-color: rgb(167, 172, 177); 
-            max-width: 70%; 
-            font-size:xx-large;
-        border-radius: 12px;
-        overflow:inherit;
-        padding: 1em;
+.content {
+    background-color: rgb(167, 172, 177); 
+    max-width: 70%; 
+    font-size:xx-large;
+    border-radius: 12px;
+    overflow:inherit;
+    padding: 1em;
         }
 
 .pagescontent {background-color: rgb(167, 172, 177);
     padding: 1em; 
     max-width: 70%; 
     font-size:large;
-border-radius: 12px;
-overflow: auto;
+    border-radius: 12px;
+    overflow: auto;
 } 
+
+.bootcamp {
+    background-color: white;
+    padding: 1em; 
+    max-width: 70%; 
+    font-size:large;
+    border-radius: 12px;
+    overflow: auto;
+}
 
 .image {padding-left: 50px;}
 
