@@ -1,4 +1,5 @@
-body {font-family: 'Quicksand', sans-serif;
+body {
+    font-family: 'Quicksand', sans-serif;
     display:block;
     margin-left:auto;
     margin-right:auto;
@@ -16,12 +17,14 @@ h2 {color:seashell;}
 
 .credits {font-size:small}
 
-.pagepics {max-width: 400px; 
+.pagepics {
+    max-width: 400px; 
     max-height: 400px;
     float:right;
     border-radius: 12px;
 }
-.blogpics {display: block !important;
+.blogpics {
+    display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
     width: 30% !important;
